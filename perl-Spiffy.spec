@@ -2,7 +2,7 @@
 
 Version:	0.30
 Name:		perl-%{module}
-Release:	10
+Release:	11
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
