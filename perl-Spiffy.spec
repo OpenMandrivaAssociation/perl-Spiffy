@@ -1,15 +1,16 @@
 %define	module	Spiffy
+%define upstream_version 0.31
 
-Version:	0.30
+Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
-Release:	15
+Release:	1
 Summary:	Spiffy Perl Interface Framework For You
-License:	GPLv2 or Artistic
+License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}/
-Source0:	http://search.cpan.org/CPAN/authors/id/I/IN/INGY/%{module}-%{version}.tar.bz2
-BuildArch:	noarch
+Source0:	http://search.cpan.org/CPAN/authors/id/I/IN/INGY/Spiffy-%{upstream_version}.tar.gz
+URL:		http://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
+BuildArch:	noarch
 
 %description
 "Spiffy" is a framework and methodology for doing object oriented (OO)
@@ -22,20 +23,19 @@ Spiffy borrows ideas from other OO languages like Python, Ruby, Java and
 Perl 6. It also adds a few tricks of its own.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
 %make 
 
 %check
-%make test
+%__make test
 
 %install
 %makeinstall_std
 
 %files
 %doc Changes README
-%{perl_vendorlib}/Spiffy.pm
-%{_mandir}/man3/*
-
+%{_mandir}/man*/*
+%{perl_vendorlib}/Spiffy*
