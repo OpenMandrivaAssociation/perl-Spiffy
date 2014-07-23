@@ -1,4 +1,5 @@
 removed_sources:
   Spiffy-0.30.tar.bz2: de360db47c14e43cc3d33ede1e7980cbe4e1ab45
-sources:
   Spiffy-0.31.tar.gz: f2bbf4626e4bab2bf6a6aa0cc773d474fa75ef19
+sources:
+  Spiffy-0.34.tar.gz: e87563fa4b89971f804c93d7761b631e33df74a8

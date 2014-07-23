@@ -1,9 +1,9 @@
 %define	module	Spiffy
-%define upstream_version 0.31
+%define upstream_version 0.34
 
 Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
-Release:	3
+Release:	1
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
