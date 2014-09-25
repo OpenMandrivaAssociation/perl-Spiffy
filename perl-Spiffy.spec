@@ -1,5 +1,5 @@
 %define	module	Spiffy
-%define upstream_version 0.34
+%define upstream_version 0.46
 
 Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
