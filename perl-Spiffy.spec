@@ -9,6 +9,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/I/IN/INGY/Spiffy-%{upstream_version}.tar.gz
 URL:		http://search.cpan.org/dist/%{module}/
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
