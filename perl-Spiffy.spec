@@ -3,12 +3,12 @@
 
 Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
-Release:	7
+Release:	8
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/I/IN/INGY/Spiffy-%{upstream_version}.tar.gz
-URL:		http://search.cpan.org/dist/%{module}/
+URL:		http://metacpan.org/pod/Spiffy
+Source0:	https://cpan.metacpan.org/authors/id/I/IN/INGY/Spiffy-%{upstream_version}.tar.gz
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 BuildArch:	noarch
