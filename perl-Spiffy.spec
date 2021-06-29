@@ -3,7 +3,7 @@
 
 Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
-Release:	8
+Release:	9
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -24,7 +24,7 @@ Spiffy borrows ideas from other OO languages like Python, Ruby, Java and
 Perl 6. It also adds a few tricks of its own.
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%autosetup -p1 -n %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
