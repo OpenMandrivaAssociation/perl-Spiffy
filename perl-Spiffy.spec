@@ -3,7 +3,7 @@
 
 Version:	%perl_convert_version %{upstream_version}
 Name:		perl-%{module}
-Release:	10
+Release:	11
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
