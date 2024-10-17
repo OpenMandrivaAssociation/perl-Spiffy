@@ -7,7 +7,7 @@ Release:	12
 Summary:	Spiffy Perl Interface Framework For You
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		http://metacpan.org/pod/Spiffy
+URL:		https://metacpan.org/pod/Spiffy
 Source0:	https://cpan.metacpan.org/authors/id/I/IN/INGY/Spiffy-%{upstream_version}.tar.gz
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
